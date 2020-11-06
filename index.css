@@ -1,0 +1,135 @@
+
+    .main{
+        color: cornsilk;
+        background-color: rgb(12, 12, 61);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .img-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .title-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    background-image: url();
+    }
+
+    #title{
+        justify-content: center;
+    }
+
+    .description-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    #description{
+        justify-content: center;
+    }
+
+    .survey-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    #survey-form{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        align-self: center;
+    }
+
+    #card{
+        width: 600px;
+        height: 450px;
+        background-color: black;
+        transition-duration: 0ms;
+        border-radius: 8px;
+        transform-style: preserve-3d;
+        position: relative;
+        box-shadow: 0px 0px 48px rgba(255, 255,255,0.0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    #image{
+        max-width: 600px;
+        max-height: 450px;
+    }
+
+    .line{
+        width: 64px;
+        height: 5px;
+        margin: -20px;
+        background-color: white;
+        transform-style: flat;
+        transform: rotate(60deg);
+        box-shadow: 0px 0px 12px rgba(255, 255, 255, 1.0);
+
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin: 0px;
+        background-color: #000;
+    }
+
+    html{
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #flip-container{
+        perspective: 1000px;
+        transition-duration: 300ms;
+        border-radius: 8px;
+        padding: 24px;
+    }   
+
+    .background-line{
+        width: 120%;
+        height: 5px;
+        background-color: #fff;
+        position: absolute;
+        box-shadow: 0px 0px 12px rgba(255, 255, 255, 1.0);
+        transition-duration: 400ms;
+    }
+
+   
+
+    .hidden{
+        background-color: transparent;
+        transform: scale(0.0);
+        box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.0);
+    }
+
+
+
